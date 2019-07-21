@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="5aea3aec-edf3-40be-a34a-b20c6c9ec4a8" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="MultiProtobufDecoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellChannelInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellChannelInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiProtobufEncoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IceDataApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/IceDataApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChunkedServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/impl/ChunkedServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-test.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/api/AgentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2448">
+              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>listLeaves</find>
+      <find>logger</find>
+      <find>com.yuefu.cradle.service.exception.</find>
+      <find>daxiong</find>
+      <find>final Base64.Decoder decoder = Base64.getDecoder();</find>
+      <find>channel.pipeline()</find>
+      <find>storage object</find>
+      <find>client</find>
+      <find>contentLen</find>
+      <find>io</find>
+      <find>服务端接受</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>log</replace>
+      <replace>ngsky</replace>
+      <replace>cp</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\2019\PABCDE\icebreaking\ice-data</dir>
+      <dir>D:\latest-beautiful\icebreaking\ice-data\src\main\java\com\ngsky\ice\data</dir>
+      <dir>D:\latest-beautiful\icebreaking\ice-data\src</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/github/FileUpload.Java" value="PREVIEW" />
+        <entry key="D:/github/dependency-management-plugin-1.0.7.RELEASE/dependency-management-plugin-1.0.7.RELEASE" value="PREVIEW" />
+        <entry key="D:/github/disruptor" value="PREVIEW" />
+        <entry key="D:/github/spring-framework" value="PREVIEW" />
+        <entry key="D:/github/spring/source/spring-framework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/java" value="PREVIEW" />
+        <entry key="D:/lenovobox/lenovobox_5.1.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/binhaifayaun_5.0.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/guangdayinhang_5.0.0.0/java" value="PREVIEW" />
+        <entry key="D:/work/guangqijituan_4.2.0" value="PREVIEW" />
+        <entry key="D:/work/guoxinzhengquan3.9.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/guoxinzhengquan_4.2.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/huayangnian_4.2.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/jinrongjie_4.2.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/jinrongjiejjituan3.9.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/oppo_3.8.1.1/java" value="PREVIEW" />
+        <entry key="D:/work/primary/3.9.0/java" value="PREVIEW" />
+        <entry key="D:/work/rongchuangzhongguo_4.2.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/shenzhenjishixueyuan_3.6.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/shenzhenjishixueyuan_4.2.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/shenzhenyitianjituan_4.2.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/tianjinhaiguan_4.2.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/tianjinhaiguan_4.2.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/wankejituan_4.2.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/wankejituan_4.2.0.1_new/server/java" value="PREVIEW" />
+        <entry key="D:/work/webank3.9/server/java" value="PREVIEW" />
+        <entry key="D:/work/weizhongyinhang_4.2.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/wukuangxintuo_4.1.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/wukuangziben_4.0.1.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/xiamengonganchurujing_4.2.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/xiamenguidao_4.0.1/server/java" value="PREVIEW" />
+        <entry key="D:/work/xingyeyinhang_5.1.0.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/xingyeyinhang_5.1.0.0/server/java/cacheagent" value="PREVIEW" />
+        <entry key="D:/work/zhaoshangzhenquan_4.0.1.0/server/java" value="PREVIEW" />
+        <entry key="D:/work/zhonghaidichan_3.9.0/server/java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/CustomPlatformApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/discovercenter/TemplateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/configcenter/DynamicConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/configcenter/ParamConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ngsky/custom/customplatform/config.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ngsky/custom/customplatform/JSONTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/configcenter/ConfigController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/custom/customplatform/zookeeper/ZookeeperClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/CradleException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/IceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/ConflictException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/ForbiddenException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/NoStackTraceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/NotExistedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/ParamErrorException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/UnAuthorizedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/Week.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/api/AgentController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/ReqBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/HttpAck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/CellBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/HttpInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/Base64Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/IpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/ServerChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/SHA256Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ngsky/ice/data/JavaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/CellReqBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/CellRespBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/conf/DynamicConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/ChunkedService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/IceDataApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufDecoder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/impl/ChunkedServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellChannelInitializer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="custom-platform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="custom-platform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="567" />
+    <option name="width" value="1199" />
+    <option name="height" value="1034" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ngsky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ngsky" type="462c0819:PsiDirectoryNode" />
+              <item name="ice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ngsky" type="462c0819:PsiDirectoryNode" />
+              <item name="ice" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ngsky" type="462c0819:PsiDirectoryNode" />
+              <item name="ice" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ngsky" type="462c0819:PsiDirectoryNode" />
+              <item name="ice" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ice-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ice-rest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="GrepConsole" />
+    <property name="settings.editor.splitter.proportion" value="0.20509091" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ngsky.custom.customplatform" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ngsky.ice.data.utils" />
+      <recent name="com.ngsky.custom.customplatform.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\latest-beautiful\icebreaking\ice-data\src\main\resources" />
+      <recent name="D:\latest-beautiful\icebreaking\ice-data\src\main\java\com\ngsky\ice\data\server" />
+      <recent name="D:\2019\PABCDE\icebreaking\ice-data\src\main\java\com\ngsky\ice\data\server" />
+      <recent name="D:\2019\PABCDE\icebreaking\ice-data\src\main\java\com\ngsky\ice\data\pojo" />
+      <recent name="D:\2019\PABCDE\icebreaking\ice-data\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IceDataApp">
+    <configuration name="Base64Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ngsky.ice.data.utils.Base64Util" />
+      <module name="ice-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ngsky.ice.data.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IceDataApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ngsky.ice.data.IceDataApp" />
+      <module name="ice-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ngsky.ice.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="1352095445385" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="JavaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ngsky.ice.data.JavaTest" />
+      <module name="ice-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ngsky.ice.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ngsky.custom.customplatform.zookeeper.Main" />
+      <module name="ice-data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ngsky.custom.customplatform.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CustomPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="ice-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ngsky.custom.customplatform.CustomPlatformApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CustomPlatformApplication" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Base64Util" />
+      <item itemvalue="Application.IceDataApp" />
+      <item itemvalue="Application.JavaTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IceDataApp" />
+        <item itemvalue="Application.JavaTest" />
+        <item itemvalue="Application.Base64Util" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\daxiong\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5aea3aec-edf3-40be-a34a-b20c6c9ec4a8" name="Default" comment="" />
+      <created>1560993649734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560993649734</updated>
+      <workItem from="1560993651298" duration="58000" />
+      <workItem from="1560994561432" duration="5715000" />
+      <workItem from="1561002971267" duration="13665000" />
+      <workItem from="1561031497701" duration="5110000" />
+      <workItem from="1561080479700" duration="25834000" />
+      <workItem from="1561195180834" duration="2565000" />
+      <workItem from="1561381881962" duration="154000" />
+      <workItem from="1562417244634" duration="4520000" />
+      <workItem from="1562456202262" duration="21551000" />
+      <workItem from="1562597261147" duration="2176000" />
+      <workItem from="1562617513026" duration="21311000" />
+      <workItem from="1562672566764" duration="4437000" />
+      <workItem from="1562772651258" duration="2263000" />
+      <workItem from="1562802884089" duration="447000" />
+      <workItem from="1562816059910" duration="5194000" />
+      <workItem from="1562823541961" duration="357000" />
+      <workItem from="1562823929714" duration="4031000" />
+      <workItem from="1562850897668" duration="6142000" />
+      <workItem from="1562922127394" duration="286000" />
+      <workItem from="1562922445342" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126412000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="567" y="0" width="1199" height="1034" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="21" sideWeight="0.12900764" side_tool="true" weight="0.5417721" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.1632653" side_tool="true" weight="0.32963374" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.27918783" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Statistic" order="17" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Translate" order="9" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39617833" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="20" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87099236" weight="0.16455697" />
+      <window_info anchor="bottom" id="Spring" order="18" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24314766" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" sideWeight="0.49946293" weight="0.46369427" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="22" />
+      <window_info id="Alibaba Cloud Explorer" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" weight="0.40510544" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="12" />
+      <window_info anchor="bottom" id="Messages" order="19" weight="0.3600509" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="8" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32962137" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="19" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29398665" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053704" side_tool="true" weight="0.40447155" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Learn" order="8" />
+      <window_info anchor="bottom" id="Statistic" order="20" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" sideWeight="0.49946293" weight="0.43951166" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="21" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.27918783" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21482277" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Translate" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0575" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/conf/ConfigController.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/conf/ConfigController.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/impl/ChunkedServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/ParamErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/UnAuthorizedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/ResponseComm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/RequestComm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/Week.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/channel/ChannelOption.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/handler/codec/http/FullHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/handler/codec/http/HttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/JsonWebTokenUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/RequestResponseUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/IpUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/TimeServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="196" column="25" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/SHA256Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ngsky/ice/data/JavaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/HttpAck.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/HttpInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/CellReqBody.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/pojo/CellRespBody.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/Md5Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/AesUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/Base64Util.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/HttpResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/utils/HttpUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/conf/ParamConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/conf/DynamicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/handler/codec/serialization/ObjectDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ngsky/ice-common/1.0-SNAPSHOT/ice-common-1.0-SNAPSHOT.jar!/com/ngsky/ice/comm/bean/CellReqBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="209" column="26" selection-start-line="209" selection-start-column="26" selection-end-line="209" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.22.Final/netty-all-4.1.22.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/ChunkedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/api/AgentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/IceDataApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/service/impl/ChunkedServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/MultiProtobufEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ngsky/ice/data/server/CellServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jweixin-1.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ice-data</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

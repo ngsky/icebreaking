@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package propt;
+
+option java_package = "com.ngsky.ice.comm.bean";
+option java_outer_classname = "CellDownReq";
+
+message ReqDown {
+    string objKey = 1;        // 对象唯一标识
+    uint32 whatChunk = 2;     // 第几块
+    uint32 countChunk = 3;    // 共几块
+    RequestType method = 4;   // 请求方法
+    string fileHash = 5;      // 文件hash,文件唯一标识
+
+    enum RequestType {
+        GET = 0;
+        PUT = 1;
+        POST = 2;
+    }
+}

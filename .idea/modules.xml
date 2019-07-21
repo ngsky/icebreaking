@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ice-common/ice-common.iml" filepath="$PROJECT_DIR$/ice-common/ice-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ice-data/ice-data.iml" filepath="$PROJECT_DIR$/ice-data/ice-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ice-rest/ice-rest.iml" filepath="$PROJECT_DIR$/ice-rest/ice-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/icebreaking.iml" filepath="$PROJECT_DIR$/.idea/icebreaking.iml" />
+    </modules>
+  </component>
+</project>

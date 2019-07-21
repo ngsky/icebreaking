@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/grpc-netty-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grpc-protobuf-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/grpc-stub-1.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/protobuf-java-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

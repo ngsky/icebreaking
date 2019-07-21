@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package propt;
+
+option java_package = "com.ngsky.ice.comm.bean";
+option java_outer_classname = "CellRespBody";
+
+message Response {
+    bool success = 1;
+    string msg = 2;
+    string dataMsg = 3;
+    bytes objData = 4;
+}

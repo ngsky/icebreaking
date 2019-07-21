@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package propt;
+
+option java_package = "com.ngsky.ice.comm.bean";
+option java_outer_classname = "CellDownResp";
+
+message RespDown {
+    bool success = 1;         // 是否成功
+    string msg = 2;           // 成功或错误信息
+    string objKey = 3;        // 对象唯一标识
+    uint32 whatChunk = 4;     // 第几块
+    uint32 countChunk = 5;    // 共几块
+    uint64 contentLen = 6;    // 对象长度
+    bytes objData = 7;        // 对象数据
+    string fileHash = 8;      // 文件hash,文件唯一标识
+}
