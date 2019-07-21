@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/ice-rest/src/main/java/com/ngsky/ice/rest/service/FileUploadService.java" description="void download(@NonNull String fileHash, HttpServle..." line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83623d39-86ec-43dc-9e7e-e700aadb2b63" name="Default" comment="" />
+    <list default="true" id="83623d39-86ec-43dc-9e7e-e700aadb2b63" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ice-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ice-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ice-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ice-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ice-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ice-rest/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/ice-common/target/" />
     <ignored path="$PROJECT_DIR$/ice-data/target/" />
     <ignored path="$PROJECT_DIR$/ice-rest/target/" />
@@ -65,11 +69,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ice-rest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="96" column="32" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="32" />
+            <state relative-caret-position="421">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ice-data/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ice-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -118,6 +140,11 @@
       <find>cellRestTempDir</find>
       <find>getBytes</find>
       <find>objData</find>
+      <find>fastjson</find>
+      <find>alibaba</find>
+      <find>databind</find>
+      <find>bind</find>
+      <find>tomcat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,6 +171,9 @@
         <option value="$PROJECT_DIR$/ice-rest/src/main/java/com/ngsky/ice/rest/client/CellClientHandler.java" />
         <option value="$PROJECT_DIR$/ice-rest/src/main/java/com/ngsky/ice/rest/api/AgentController.java" />
         <option value="$PROJECT_DIR$/ice-rest/src/main/java/com/ngsky/ice/rest/service/impl/FileUploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ice-data/pom.xml" />
+        <option value="$PROJECT_DIR$/ice-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/ice-common/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,11 +220,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="758" />
-    <option name="y" value="299" />
-    <option name="width" value="1199" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,15 +361,15 @@
       <workItem from="1563090798681" duration="10665000" />
       <workItem from="1563199058459" duration="6594000" />
       <workItem from="1563631188613" duration="807000" />
-      <workItem from="1563691995909" duration="604000" />
+      <workItem from="1563691995909" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26366000" />
+    <option name="totallyTimeSpent" value="27233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1052" extended-state="7" />
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8301435" visible="true" weight="0.2196162" />
@@ -651,10 +680,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ice-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ice-rest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="32" />
+        <state relative-caret-position="421">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ice-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
