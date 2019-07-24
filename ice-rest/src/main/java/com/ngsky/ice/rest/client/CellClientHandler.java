@@ -14,37 +14,33 @@ import com.alibaba.fastjson.JSONObject;
 import com.ngsky.ice.comm.bean.CellDownResp;
 import com.ngsky.ice.comm.bean.CellRespBody;
 import com.ngsky.ice.comm.utils.Base64Util;
-import com.ngsky.ice.rest.conf.Constant;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.ChannelPromise;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-import java.util.concurrent.LinkedBlockingQueue;
 
 @Slf4j
-@ChannelHandler.Sharable
-@Component
 public class CellClientHandler extends ChannelInboundHandlerAdapter {
 
-    @Value("${cell.metadata.testdir}")
-    private String cellMetadataDir;
+    private ChannelHandlerContext ctx;
+    private ChannelPromise promise;
+    private CellDownResp.RespDown respDown;
 
     @Override
-    public void channelActive(ChannelHandlerContext ctx) {
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
         log.info("客户端 channel active ------> ");
+        super.channelActive(ctx);
+        this.ctx = ctx;
     }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         try {
-            log.info("客户端接受消息: remote address:{}, msg:{}", ctx.channel().remoteAddress(), msg);
+//            log.info("客户端接受消息: remote address:{}, msg:{}", ctx.channel().remoteAddress(), msg);
             if (msg instanceof CellRespBody.Response) {
                 CellRespBody.Response body = (CellRespBody.Response) msg;
                 if (body.getSuccess()) {
-                    log.info("对象存储成功, 对象名称及分区信息:{}", body.getDataMsg());
+//                    log.info("对象存储成功, 对象名称及分区信息:{}", body.getDataMsg());
                     String dataJson = Base64Util.decode(body.getDataMsg());
                     JSONObject dataMsg = JSONObject.parseObject(dataJson);
                     if (null != dataMsg && null != dataMsg.get("whatChunk")
@@ -58,14 +54,8 @@ public class CellClientHandler extends ChannelInboundHandlerAdapter {
             } else if (msg instanceof CellDownResp.RespDown) {
                 CellDownResp.RespDown body = (CellDownResp.RespDown) msg;
                 if (body.getSuccess()) {
-                    log.info("获取到文件数块!, objKey:{}", body.getObjKey());
-                    // 将数据存储到队列，以便封包
-                    LinkedBlockingQueue<CellDownResp.RespDown> respDowns = new LinkedBlockingQueue<>();
-                    if (Constant.PACKET_MAP.containsKey(body.getFileHash())) {
-                        respDowns = Constant.PACKET_MAP.get(body.getFileHash());
-                    }
-                    respDowns.add(body);
-                    Constant.PACKET_MAP.put(body.getFileHash(), respDowns);
+                    respDown = body;
+                    promise.setSuccess();
                 }
             }
         } catch (Exception e) {
@@ -81,4 +71,14 @@ public class CellClientHandler extends ChannelInboundHandlerAdapter {
         ctx.close();
     }
 
+    public ChannelPromise downloadObj(Object req) {
+        if (ctx == null)
+            throw new IllegalStateException();
+        promise = ctx.writeAndFlush(req).channel().newPromise();
+        return promise;
+    }
+
+    public CellDownResp.RespDown getRespDown(){
+        return respDown;
+    }
 }

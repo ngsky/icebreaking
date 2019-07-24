@@ -40,12 +40,9 @@ public class AgentController {
     }
 
     @GetMapping("/file/{fileHash}")
-    public Message downloadFile(@PathVariable(name = "fileHash", required = false) String fileHash,
+    public void downloadFile(@PathVariable(name = "fileHash", required = false) String fileHash,
                                 HttpServletResponse response) throws Exception {
         fileHash = "5b651ffc16a181b01ebe92c2a9eacc4e5c90c1ae25c8b588a1337c4ce6431a5e";
         fileUploadService.download(fileHash, response);
-        return new Message().ok();
     }
-
-
 }

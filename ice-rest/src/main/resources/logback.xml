@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <jmxConfigurator/>
-    <property name="log_path" value="G:\\objdata\\logs"/>
+    <property name="log_path" value="/home/workspace/logs"/>
     <property name="log_level_info" value="INFO"/>
     <property name="log_level_debug" value="DEBUG"/>
 
@@ -14,9 +14,9 @@
 
     <!-- 文件输出日志 (文件大小策略进行文件输出，超过指定大小对文件压缩(.zip)备份)-->
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>${log_path}\\ice-rest.log</File>
+        <File>${log_path}/ice-rest.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log_path}\\web_log\\%d{yyyy-MM}\\ice-rest_%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <fileNamePattern>${log_path}/web_log/%d{yyyy-MM}/ice-rest_%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10240KB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
@@ -35,9 +35,9 @@
             <onMismatch>DENY</onMismatch>     <!-- 如果不匹配，则拒绝处理 -->
             <onMatch>ACCEPT</onMatch>         <!-- 如果匹配，则立即处理 -->
         </filter>
-        <file>${log_path}\\ice-rest-error.log</file> <!-- 文件名即路径 -->
+        <file>${log_path}/ice-rest-error.log</file> <!-- 文件名即路径 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log_path}\\error_log\\%d{yyyy-MM}\\ice-rest-error_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>${log_path}/error_log/%d{yyyy-MM}/ice-rest-error_%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>1024KB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>

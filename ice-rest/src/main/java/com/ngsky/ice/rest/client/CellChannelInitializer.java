@@ -13,14 +13,14 @@ package com.ngsky.ice.rest.client;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
 public class CellChannelInitializer extends ChannelInitializer<SocketChannel> {
 
-    @Autowired
     private CellClientHandler cellClientHandler;
+
+    public CellChannelInitializer(CellClientHandler cellClientHandler){
+        this.cellClientHandler = cellClientHandler;
+    }
 
     @Override
     protected void initChannel(SocketChannel channel) throws Exception {

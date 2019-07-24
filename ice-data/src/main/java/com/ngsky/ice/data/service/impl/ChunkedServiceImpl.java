@@ -63,7 +63,8 @@ public class ChunkedServiceImpl implements ChunkedService {
 
     @Override
     public byte[] extractive(@NonNull String objKey) throws Exception {
-        File file = new File("cellPoints" + objKey);
+        File file = new File(cellPoints + objKey);
+        log.info("server cell path:{}", cellPoints + objKey);
         if (!file.exists() || file.isDirectory()) {
             return null;
         }

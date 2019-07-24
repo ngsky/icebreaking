@@ -76,13 +76,15 @@ public class CellServerHandler extends ChannelInboundHandlerAdapter {
             } else {
                 objData = ByteString.copyFrom(data);
             }
-
+            log.info("server  objData: {}", objData);
             CellDownResp.RespDown resp = CellDownResp.RespDown
                     .newBuilder()
                     .setSuccess(true)
                     .setObjKey(body.getObjKey())
                     .setWhatChunk(body.getWhatChunk())
                     .setCountChunk(body.getCountChunk())
+                    .setContentLen(objData.size())
+                    .setFileHash(body.getFileHash())
                     .setObjData(objData)
                     .build();
 

@@ -17,14 +17,12 @@ import io.netty.channel.ChannelFuture;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * <dl>
@@ -47,9 +45,6 @@ public class FileUploadServiceImpl implements FileUploadService {
 
     @Value("${cell.metadata.testdir}")
     private String cellMetadataDir;
-
-    @Autowired
-    private CellClient cellClient;
 
     @Override
     public void upload(@NonNull MultipartFile file) throws Exception {
@@ -76,6 +71,7 @@ public class FileUploadServiceImpl implements FileUploadService {
                 buff = new byte[(int) fileSize];
             }
 
+            CellClient cellClient = new CellClient();
             ChannelFuture future = cellClient.connectCellServer(cellServerHost, cellServerPort);
 
             // fileHash:123 : 文件唯一标识
@@ -136,7 +132,7 @@ public class FileUploadServiceImpl implements FileUploadService {
         JSONObject metaJson = JSONObject.parseObject(metadata);
         if (null == metaJson) return;
         // 向netty 请求数据块
-        log.info("文件元数据:fileHash:{}, metadata:{}", fileHash, metadata);
+//        log.info("文件元数据:fileHash:{}, metadata:{}", fileHash, metadata);
 
         // 封装文件数据
         int countChunk = metaJson.getInteger("countChunk");
@@ -144,36 +140,42 @@ public class FileUploadServiceImpl implements FileUploadService {
         String fileName = metaJson.getString("fileName");
         String[] chunkStr = chunks.split(",");
 
-        ChannelFuture future = cellClient.connectCellServer(cellServerHost, cellServerPort);
-
-        for (int i = 0; i < chunkStr.length; i++) {
-            CellDownReq.ReqDown reqDown = CellDownReq.ReqDown.newBuilder()
-                    .setObjKey(chunkStr[i])
-                    .setWhatChunk(i + 1)
-                    .setCountChunk(chunkStr.length)
-                    .setFileHash(fileHash)
-                    .setMethod(CellDownReq.ReqDown.RequestType.GET)
-                    .build();
-            cellClient.sendDownMsg(future, reqDown);
-            log.info("正在下载第:{}块数据快", (i + 1));
-        }
-
         // 返回数据流
-        response.setContentType("application/force-download");// 设置强制下载不打开
-        response.addHeader("Content-Disposition", "attachment;fileName=" + fileName);// 设置文件名
-        OutputStream os = response.getOutputStream();
-        LinkedBlockingQueue<CellDownResp.RespDown> respDowns = Constant.PACKET_MAP.get(fileHash);
-        if (null != respDowns) {
+        response.reset();
+        response.setContentType("application/x-download");
+        response.addHeader("Content-Disposition","attachment;filename="+ new String(fileName.getBytes(),"UTF-8"));
+//        response.addHeader("Content-Length", "" + file.length());
+        OutputStream out = new BufferedOutputStream(response.getOutputStream());
+        response.setContentType("application/octet-stream");
+
+        CellClient cellClient = new CellClient();
+        ChannelFuture future;
+        try {
+            future = cellClient.connectCellServer(cellServerHost, cellServerPort);
             int offset = 0;
-            while (true) {
-                CellDownResp.RespDown resp = respDowns.take();
-                byte[] data = resp.getObjData().toByteArray();
-                os.write(data, offset, data.length);
-                offset += data.length;
-                if (resp.getWhatChunk() == resp.getCountChunk()) {
-                    break;
+            for (int i = 0; i < chunkStr.length; i++) {
+                CellDownReq.ReqDown reqDown = CellDownReq.ReqDown.newBuilder()
+                        .setObjKey(chunkStr[i])
+                        .setWhatChunk(i + 1)
+                        .setCountChunk(chunkStr.length)
+                        .setFileHash(fileHash)
+                        .setMethod(CellDownReq.ReqDown.RequestType.GET)
+                        .build();
+                CellDownResp.RespDown respDown = cellClient.sendDownMsg(future, reqDown);
+                if(null != respDown){
+                    log.info("正在下载第:{}块数据块:whatCount:{}, countChunk:{}, objKey:{}", (i + 1), reqDown.getWhatChunk(), reqDown.getCountChunk(), reqDown.getObjKey());
+                    byte[] data = respDown.getObjData().toByteArray();
+//                    offset += data.length;
+                    out.write(data, 0, data.length);
+                    log.info("长度:{},总长度:{}", data.length, offset);
+                } else {
+                    log.info("正在下载第:{}块数据块:null", (i + 1));
                 }
             }
+            out .flush();
+            out .close();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 

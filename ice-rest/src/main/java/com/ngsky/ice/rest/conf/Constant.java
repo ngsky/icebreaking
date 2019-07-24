@@ -15,5 +15,5 @@ public class Constant {
     // 4MB = 4194304 byte
     public final static int CHUNK_SIZE = 4194304;
 
-    public final static Map<String, LinkedBlockingQueue<CellDownResp.RespDown>> PACKET_MAP = new HashMap<>();
+    public static volatile Map<String, LinkedBlockingQueue<CellDownResp.RespDown>> PACKET_MAP = new HashMap<>();
 }

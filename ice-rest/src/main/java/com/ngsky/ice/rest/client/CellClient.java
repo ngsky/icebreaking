@@ -1,17 +1,17 @@
 package com.ngsky.ice.rest.client;
 
 import com.ngsky.ice.comm.bean.CellDownReq;
+import com.ngsky.ice.comm.bean.CellDownResp;
 import com.ngsky.ice.comm.bean.CellReqBody;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
+import io.netty.channel.ChannelPromise;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * <dl>
@@ -24,11 +24,9 @@ import org.springframework.stereotype.Component;
  */
 
 @Slf4j
-@Component
 public class CellClient {
 
-    @Autowired
-    private CellChannelInitializer cellChannelInitializer;
+    private CellClientHandler cellClientHandler = new CellClientHandler();
 
     /**
      * 建立连接
@@ -39,7 +37,7 @@ public class CellClient {
         bootstrap.group(group)
                 .channel(NioSocketChannel.class)
                 .option(ChannelOption.TCP_NODELAY, true)
-                .handler(cellChannelInitializer);
+                .handler(new CellChannelInitializer(cellClientHandler));
 
         return bootstrap.connect(cellServerHost, cellServerPort).sync();
     }
@@ -53,10 +51,16 @@ public class CellClient {
     }
 
     // 读取数据快
-    public void sendDownMsg(@NonNull ChannelFuture future, @NonNull CellDownReq.ReqDown reqDown) {
+    public CellDownResp.RespDown sendDownMsg(@NonNull ChannelFuture future, @NonNull CellDownReq.ReqDown reqDown) {
         // 向服务端发起下载请求
         log.info("========================");
-        future.channel().writeAndFlush(reqDown);
+        ChannelPromise promise = cellClientHandler.downloadObj(reqDown);
+        try {
+            promise.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return cellClientHandler.getRespDown();
     }
 
 }
