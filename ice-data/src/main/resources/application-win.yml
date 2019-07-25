@@ -1,0 +1,6 @@
+# 存储点
+cell:
+  points: G:\objdata\objects\
+  port: 9999
+server:
+  port: 9990

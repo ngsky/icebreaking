@@ -1,0 +1,14 @@
+# 存储点
+cell:
+  server:
+    host: localhost
+    port: 9999
+  metadata:
+    testdir: G:\objdata\testdir\
+server:
+  port: 8888
+spring:
+  servlet:
+    multipart:
+      max-file-size: 4096MB
+      max-request-size: 4096MB

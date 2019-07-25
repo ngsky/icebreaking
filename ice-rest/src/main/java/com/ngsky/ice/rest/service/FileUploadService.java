@@ -3,8 +3,6 @@ package com.ngsky.ice.rest.service;
 import lombok.NonNull;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletResponse;
-
 /**
  * <dl>
  * <dt>FileUploadService</dt>
@@ -20,9 +18,4 @@ public interface FileUploadService {
      * 上传文件
      */
     void upload(@NonNull MultipartFile file) throws Exception;
-
-    /**
-     * 下载文件
-     */
-    void download(@NonNull String fileHash, HttpServletResponse response) throws Exception;
 }
