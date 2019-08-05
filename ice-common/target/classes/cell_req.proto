@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package propt;
+
+option java_package = "com.ngsky.ice.comm.bean";
+option java_outer_classname = "CellReqBody";
+
+message Request {
+    string objKey = 1;        // 对象唯一标识
+    string digest = 2;        // SHA对象算法
+    uint32 whatChunk = 3;     // 第几块
+    uint32 countChunk = 4;    // 共几块
+    bytes objData = 5;        // 对象数据
+    uint64 contentLen = 6;    // 对象长度
+    RequestType method = 7;   // 请求方法
+
+    enum RequestType {
+        GET = 0;
+        PUT = 1;
+        POST = 2;
+    }
+}

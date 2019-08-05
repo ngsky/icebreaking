@@ -58,7 +58,12 @@ public class IceExecutorService implements InitializingBean {
 	 */
 	private ExecutorService executorService;
 
-	public IceExecutorService() {}
+	public IceExecutorService() {
+		this.name = name;
+		this.corePoolSize = corePoolSize <= 0 ? 5 : corePoolSize;
+		this.maxPoolSize = maxPoolSize <= 0 ? 10 : maxPoolSize;
+		this.keepAliveMinute = keepAliveMinute <= 0 ? 3 : keepAliveMinute;
+	}
 
 	public IceExecutorService(String name, int corePoolSize, int maxPoolSize, int keepAliveMinute) {
 		super();
