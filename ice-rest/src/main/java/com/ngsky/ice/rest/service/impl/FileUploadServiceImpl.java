@@ -39,7 +39,7 @@ public class FileUploadServiceImpl implements FileUploadService {
     @Value("${cell.server.port}")
     private int cellServerPort;
 
-    @Value("${cell.metadata.testdir}")
+    @Value("${cell.meta.testdir}")
     private String cellMetadataDir;
 
     @Override
@@ -112,4 +112,10 @@ public class FileUploadServiceImpl implements FileUploadService {
             e.printStackTrace();
         }
     }
+
+    // 分片
+
+    // 存储元数据
+
+    // 存储数据对象
 }

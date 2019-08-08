@@ -34,7 +34,7 @@ public class FileDownloadServiceImpl implements FileDownloadService {
     @Value("${cell.server.port}")
     private int cellServerPort;
 
-    @Value("${cell.metadata.testdir}")
+    @Value("${cell.meta.testdir}")
     private String cellMetadataDir;
 
     @Override
