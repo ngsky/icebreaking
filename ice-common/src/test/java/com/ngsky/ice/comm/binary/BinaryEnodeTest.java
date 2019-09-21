@@ -2,7 +2,7 @@ package com.ngsky.ice.comm.binary;
 
 /**
  * @Description:
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/7/11 9:45
  */
 public class BinaryEnodeTest {

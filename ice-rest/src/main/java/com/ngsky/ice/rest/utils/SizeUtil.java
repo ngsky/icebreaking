@@ -2,7 +2,7 @@ package com.ngsky.ice.rest.utils;
 
 /**
  * @Description:
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/7/11 17:16
  */
 public class SizeUtil {

@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * @Description: 动态配置项
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/6/20 17:25
  */
 @EnableConfigurationProperties(ParamConfig.class)

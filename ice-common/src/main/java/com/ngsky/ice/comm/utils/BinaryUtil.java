@@ -2,7 +2,7 @@ package com.ngsky.ice.comm.utils;
 
 /**
  * @Description: 你不可能看懂这些
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/7/11 9:59
  */
 public class BinaryUtil {

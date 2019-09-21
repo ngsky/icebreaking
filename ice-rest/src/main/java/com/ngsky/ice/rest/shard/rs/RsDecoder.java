@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 
 /**
  * @Description:
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/8/5 19:07
  */
 public class RsDecoder {

@@ -49,7 +49,6 @@
         </encoder>
     </appender>
 
-    <!--<logger name="com.lenovo.css" value="INFO"/>-->
     <root level="INFO">
         <appender-ref ref="console"/>
         <appender-ref ref="file"/>

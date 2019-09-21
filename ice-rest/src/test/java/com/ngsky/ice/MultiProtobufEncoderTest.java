@@ -4,7 +4,7 @@ import com.ngsky.ice.comm.utils.BinaryUtil;
 
 /**
  * @Description:
- * @Author: sunyx@lenovocloud.com
+ * @Author: ngsky
  * @CreateDate: 2019/7/11 10:46
  */
 public class MultiProtobufEncoderTest {
