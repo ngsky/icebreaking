@@ -1,6 +1,7 @@
 package com.ngsky.ice.rest.meta.service;
 
 import com.ngsky.ice.rest.exception.IceException;
+import com.ngsky.ice.rest.meta.bean.FileType;
 import com.ngsky.ice.rest.meta.bean.Inode;
 import org.springframework.data.domain.Page;
 
@@ -31,23 +32,11 @@ public interface InodeService {
      * 排序：时间升序
      * @param timeType atime/mtime/ctime
      */
-    Page<Inode> findByTimeAsc(String pinode, int timeType, int pageNo, int pageSize) throws IceException;
-
-    /**
-     * 排序：时间降序
-     * @param timeType atime/mtime/ctime
-     */
-    Page<Inode> findByTimeDesc(String pinode, int timeType, int pageNo, int pageSize) throws IceException;
+    Page<Inode> findByTime(String pinode, FileType.TimeType timeType, int pageNo, int pageSize) throws IceException;
 
     /**
      * 排序：时间升序
      * @param timeType atime/mtime/ctime
      */
-    Page<Inode> findByTimeAsc(String pinode, int type, int timeType, int pageNo, int pageSize) throws IceException;
-
-    /**
-     * 排序：时间升序
-     * @param timeType atime/mtime/ctime
-     */
-    Page<Inode> findByTimeDesc(String pinode, int type, int timeType, int pageNo, int pageSize) throws IceException;
+    Page<Inode> findByTime(String pinode, int type, FileType.TimeType timeType, int pageNo, int pageSize) throws IceException;
 }

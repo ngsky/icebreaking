@@ -1,6 +1,7 @@
 package com.ngsky.ice.rest.meta.service.impl;
 
 import com.ngsky.ice.rest.exception.IceException;
+import com.ngsky.ice.rest.meta.bean.FileType;
 import com.ngsky.ice.rest.meta.bean.Inode;
 import com.ngsky.ice.rest.meta.repo.InodeRepo;
 import com.ngsky.ice.rest.meta.service.InodeService;
@@ -45,44 +46,37 @@ public class InodeServiceImpl implements InodeService {
 
     @Override
     public Page<Inode> findByPinode(String pinode, int pageNo, int pageSize) throws IceException {
-
-        return null;
+        return find(pinode, null, FileType.TimeType.MTIME_DESC.toString().toLowerCase(), pageNo, pageSize);
     }
 
     @Override
     public Page<Inode> findByType(String pinode, int type, int pageNo, int pageSize) throws IceException {
-        return null;
+        return find(pinode, type, FileType.TimeType.MTIME_DESC.toString().toLowerCase(), pageNo, pageSize);
     }
 
     @Override
-    public Page<Inode> findByTimeAsc(String pinode, int timeType, int pageNo, int pageSize) throws IceException {
-        return null;
+    public Page<Inode> findByTime(String pinode, FileType.TimeType timeType, int pageNo, int pageSize) throws IceException {
+        return find(pinode, null, timeType.toString().toLowerCase(), pageNo, pageSize);
     }
 
     @Override
-    public Page<Inode> findByTimeDesc(String pinode, int timeType, int pageNo, int pageSize) throws IceException {
-        return null;
+    public Page<Inode> findByTime(String pinode, int type, FileType.TimeType timeType, int pageNo, int pageSize) throws IceException {
+        return find(pinode, type, timeType.toString().toLowerCase(), pageNo, pageSize);
     }
-
-    @Override
-    public Page<Inode> findByTimeAsc(String pinode, int type, int timeType, int pageNo, int pageSize) throws IceException {
-        return null;
-    }
-
-    @Override
-    public Page<Inode> findByTimeDesc(String pinode, int type, int timeType, int pageNo, int pageSize) throws IceException {
-        return null;
-    }
-
 
     private Page<Inode> find(String pinode, Integer type, String timeType, int pageNo, int pageSize) {
         if (null == pinode) return null;
         Sort.Order timeOrder = null;
         Sort sort = null;
-        if (StringUtils.equals(timeType, "atime")
-                || StringUtils.equals(timeType, "mtime")
-                || StringUtils.equals(timeType, "ctime")) {
-            timeOrder = Sort.Order.desc(timeType);
+        String[] times = timeType.split("_");
+        if (StringUtils.equals(times[0], "atime")
+                || StringUtils.equals(times[0], "mtime")
+                || StringUtils.equals(times[0], "ctime")) {
+            if ("asc".equals(times[1])) {
+                timeOrder = Sort.Order.asc(times[0]);
+            } else {
+                timeOrder = Sort.Order.desc(times[0]);
+            }
         }
         Sort.Order typeOrder = Sort.Order.asc("type");
         if (null != timeOrder) {
