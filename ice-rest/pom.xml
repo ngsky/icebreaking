@@ -20,7 +20,7 @@
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
 
         <version.jackson>2.9.9.1</version.jackson>
-        <netty.version>4.1.22.Final</netty.version>
+        <netty.version>4.1.42.Final</netty.version>
         <protobuf.version>3.8.0</protobuf.version>
     </properties>
 
