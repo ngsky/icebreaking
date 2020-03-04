@@ -13,7 +13,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
 
-        <version.jackson>2.9.9.1</version.jackson>
+        <version.jackson>2.9.10.3</version.jackson>
 
         <grpc.version>1.22.0</grpc.version>
         <protobuf.version>3.8.0</protobuf.version>
